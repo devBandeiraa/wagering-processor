@@ -1,5 +1,7 @@
 # Distributed Wagering Processor
 
+[![CI](https://github.com/devBandeiraa/wagering-processor/actions/workflows/ci.yml/badge.svg)](https://github.com/devBandeiraa/wagering-processor/actions/workflows/ci.yml)
+
 Serviço financeiro que processa transações de apostas (BET, WIN, LOSS, REFUND, ROLLBACK) vindas de
 múltiplos provedores por **HTTP** e **SQS**. É correto com entregas duplicadas, fora de ordem e
 concorrentes, inclusive com **3 ou mais instâncias** ao mesmo tempo.
@@ -7,7 +9,7 @@ concorrentes, inclusive com **3 ou mais instâncias** ao mesmo tempo.
 Stack: Bun · TypeScript strict · NestJS · PostgreSQL + MikroORM · SQS (LocalStack) · Docker Compose.
 
 - **Decisões, trade-offs, limitações e a tabela requisito → prova:** [ARCHITECTURE.md](ARCHITECTURE.md)
-- Enunciado: [docs/CHALLENGE.md](docs/CHALLENGE.md)
+- Origem: desafio técnico de um processo seletivo; o enunciado original não é publicado neste repositório.
 - Teste de carga: [docs/load-test-report.md](docs/load-test-report.md) · [análise](docs/load-test-analysis.md)
 
 ## Requisitos
